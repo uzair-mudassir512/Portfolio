@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uzair's Portfolio</title>
+
+    <meta name="description" content="Personal portfolio website of Your Name.">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+
+        <div class="hero-content reveal">
+
+            <p class="eyebrow">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+                Uzair <span>Mudassir</span>
+            </h1>
+
+            <h2>
+                I build <span id="typing"></span>
+            </h2>
+
+            <p class="hero-description">
+                I'm a passionate developer who loves creating modern,
+                beautiful and useful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">
+                    View My Work →
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="socials">
+                <a href="#" aria-label="GitHub">GH</a>
+                <a href="#" aria-label="LinkedIn">IN</a>
+                <a href="#" aria-label="Twitter">X</a>
+            </div>
+
+        </div>
+
+        <!-- Abstract visual — NO PERSONAL PHOTO -->
+        <div class="hero-art reveal">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+
+            <div class="code-card">
+                <div class="code-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="code">
+                    <p><span class="purple">const</span> developer = {</p>
+                    <p>&nbsp;&nbsp;name: <span class="green">"Uzair Mudassir"</span>,</p>
+                    <p>&nbsp;&nbsp;passion: <span class="green">"Coding"</span>,</p>
+                    <p>&nbsp;&nbsp;creative: <span class="orange">true</span>,</p>
+                    <p>&nbsp;&nbsp;coffee: <span class="orange">∞</span></p>
+                    <p>};</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="section about" id="about">
+
+        <div class="section-heading reveal">
+            <p class="section-label">01 — ABOUT</p>
+            <h2>Who I Am</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+                <h3>Turning ideas into digital experiences.</h3>
+
+                <p>
+                    I'm a developer interested in technology, design and
+                    problem-solving. I enjoy taking an idea and turning it
+                    into something people can actually use.
+                </p>
+
+                <p>
+                    My goal is to create websites and applications that
+                    aren't just functional, but also fast, accessible and
+                    enjoyable to interact with.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's work together →
+                </a>
+            </div>
+
+            <div class="stats reveal">
+
+                <div class="stat-card">
+                    <strong>10+</strong>
+                    <span>Projects</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>3+</strong>
+                    <span>Technologies</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>100%</strong>
+                    <span>Passion</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>∞</strong>
+                    <span>Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+
+        <div class="section-heading reveal">
+            <p class="section-label">02 — SKILLS</p>
+            <h2>What I Work With</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">01</div>
+                <h3>HTML</h3>
+                <p>Semantic and accessible web structures.</p>
+                <div class="progress">
+                    <span style="width: 90%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">02</div>
+                <h3>CSS</h3>
+                <p>Responsive layouts, animations and modern UI.</p>
+                <div class="progress">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">03</div>
+                <h3>JavaScript</h3>
+                <p>Interactive and dynamic web experiences.</p>
+                <div class="progress">
+                    <span style="width: 75%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">04</div>
+                <h3>UI / UX</h3>
+                <p>Clean interfaces focused on user experience.</p>
+                <div class="progress">
+                    <span style="width: 80%"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+
+        <div class="section-heading reveal">
+            <p class="section-label">03 — PROJECTS</p>
+            <h2>Things I've Built</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card reveal">
+
+                <div class="project-number">01</div>
+
+                <div class="project-content">
+                    <p class="project-type">WEB DEVELOPMENT</p>
+
+                    <h3>Project One</h3>
+
+                    <p>
+                        A modern responsive website designed with a clean
+                        interface and smooth animations.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+                </div>
+
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">02</div>
+
+                <div class="project-content">
+                    <p class="project-type">APPLICATION</p>
+
+                    <h3>Project Two</h3>
+
+                    <p>
+                        An interactive application built to solve a real
+                        problem with a simple user experience.
+                    </p>
+
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>UI</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+                </div>
+
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">03</div>
+
+                <div class="project-content">
+                    <p class="project-type">CREATIVE</p>
+
+                    <h3>Project Three</h3>
+
+                    <p>
+                        A creative digital project focused on visual design,
+                        performance and user interaction.
+                    </p>
+
+                    <div class="tags">
+                        <span>Design</span>
+                        <span>CSS</span>
+                        <span>Animation</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- Experience -->
+    <section class="section experience">
+
+        <div class="section-heading reveal">
+            <p class="section-label">04 — JOURNEY</p>
+            <h2>My Journey</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+                    <span>2026 — Present</span>
+                    <h3>Learning & Building</h3>
+                    <p>
+                        Developing projects, improving my skills and exploring
+                        new technologies.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+                    <span>2025 — 2026</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Started building websites and learning the foundations
+                        of modern web development.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+                    <span>The Beginning</span>
+                    <h3>Curiosity</h3>
+                    <p>
+                        Discovered programming and started experimenting with
+                        technology.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+
+        <div class="contact-box reveal">
+
+            <p class="section-label">05 — CONTACT</p>
+
+            <h2>
+                Let's build something
+                <span>great.</span>
+            </h2>
+
+            <p>
+                Have an idea, project or opportunity?
+                I'd love to hear from you.
+            </p>
+
+            <a href="mailto:chaduaryuzair@gmail.com" class="btn primary">
+                Send Me an Email →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 </p>
+
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
